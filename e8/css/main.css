@@ -6,7 +6,7 @@ main {
   width: 140;
   margin: -20vw;
 }
-.shape1 {
+.pattern1 .shape1 {
   width: 100px;
   height: 100px;
   background-color: tomato;
@@ -14,7 +14,7 @@ main {
   margin: -5px;
   opacity: .75;
 }
-.shape2 {
+.pattern1 .shape2 {
   width: 100px;
   height: 100px;
   background-color: dodgerblue;
@@ -22,10 +22,76 @@ main {
   margin: -5px;
   opacity: .75;
 }
-.shape3 {
+.pattern1 .shape3 {
   width: 100px;
   height: 100px;
   background-color: gold;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 140;
+  margin: -20vw;
+}
+.pattern2 .shape1 {
+  width: 200px;
+  height: 300px;
+  background-color: tomato;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern2 .shape2 {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern2 .shape3 {
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 140;
+  margin: -20vw;
+}
+.pattern3 .shape1 {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern3 .shape2 {
+  width: 300px;
+  height: 300px;
+  background-color: dodgerblue;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern3 .shape3 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
   float: left;
   margin: -5px;
   opacity: .75;

@@ -96,3 +96,69 @@ main {
   margin: -5px;
   opacity: .75;
 }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 140;
+  margin: -20vw;
+}
+.pattern4 .shape1 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern4 .shape2 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern4 .shape3 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 140;
+  margin: -20vw;
+}
+.pattern5 .shape1 {
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern5 .shape2 {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}
+.pattern5 .shape3 {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  float: left;
+  margin: -5px;
+  opacity: .75;
+}

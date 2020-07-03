@@ -1,23 +1,95 @@
-* {
-  box-sizing: border-box;
+h1 {
+  font-family: fairwater-deco-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
 body {
-  margin: 0;
-  background-color: #dddddd
+  font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
-.board {
-  width: 800vw;
+*{
+  box=sizing: border-box;
+}
+body {
   margin: 50px auto;
+  padding: 20px
+}
+/* Layout 1 */
+.board {
+  width: 800px;
+  margin: auto;
 }
 .red {
-  width: 10vw;
-  height: 10vw;
-  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
   float: left;
 }
 .black {
-  width: 10vw;
-  height: 10vw;
-  background-color: #222222;
+  width: 100px;
+  height: 100px;
+  background-color: black;
   float: left;
+}
+/* Layout 2 */
+.grid {
+  width: 800px;
+  margin: auto;
+}
+.header {
+  width: 800px;
+  height: 100px;
+  background-color: tomato;
+  margin:10px;
+}
+.nav {
+  width: 800px;
+  height: 20px;
+  background-color: tomato;
+  margin: 10px;
+}
+.content {
+  width: 250px;
+  height: 500px;
+  background-color: tomato;
+  margin: 10px;
+  float: left;
+}
+.footer {
+  width: 800px;
+  height: 100px;
+  background-color: tomato;
+  margin: 10px;
+}
+/* Layout 3 */
+.blog {
+  width: 800px;
+  margin: auto;
+}
+.header1 {
+  width: 800px;
+  height: 200px;
+  background-color: tomato;
+  margin: 50px;
+}
+.rec {
+  width: 600px;
+  height: 400px;
+  background-color: tomato;
+  margin: 50px;
+}
+.rec2 {
+  width: 190px;
+  height: 250px;
+  background-color: tomato;
+  margin: 50px;
+}
+.footer1 {
+  width: 600px;
+  height: 70px;
+  background-color: tomato;
+  margin: 50px;
 }

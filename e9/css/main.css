@@ -1,31 +1,166 @@
-h1 {
-  font-family: fairwater-deco-serif, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
+* {
+  box-sizing: border-box;
 }
 body {
-  font-family: fairwater-open-serif, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
+  margin: 0;
+  background-color: #dddddd;
 }
-*{
-  box=sizing: border-box;
-}
-body {
-  margin: 50px auto;
-  padding: 20px
-}
-/* Layout 1 */
 .board {
   width: 800px;
-  margin: auto;
+  margin: calc((100vh - 800px) / 2) auto;
 }
 .red {
   width: 100px;
   height: 100px;
-  background-color: crimson;
+  background-color: tomato;
+  float: left;
+}
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: #222222;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board {
+  width: 800px;
+  margin: calc((100vh - 800px) / 2) auto;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.header {
+  width: 740px;
+  height: 60px;
+  background-color: blue;
+  margin: 10px;
+}
+.smallheader {
+  width: 940px;
+  height: 30px;
+  background-color: red;
+  margin:10px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.col-1 {
+  float:left;
+  background: Red;
+  width: 200px;
+  height: 700px;
+  margin: 10px;
+}
+.col-2 {
+  float:left;
+  background:blue;
+  width: 200px;
+  height: 700px;
+  margin: 10px;
+}
+.col-3 {
+  float:left;
+  background: red;
+  width: 200px;
+  height: 700px;
+  margin: 10px;
+}
+.footer {
+  width: 940px;
+  height: 80px;
+  clear: both;
+  background-color: blue;
+  margin: 10px;
+}
+.blog-header {
+  border: 2px;
+  width: 940px;
+  height: 100px;
+  background-color: red;
+  margin: 10px 10px 75px 10px;
+}
+.blog-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.blog-col {
+  border: 2px;
+  float:left;
+  background: blue;
+  width: 800px;
+  height: 350px;
+  margin: 10px;
+}
+.blog-col2 {
+  border: 2px;
+  float:left;
+  background: red;
+  width: 180px;
+  height: 250px;
+  margin: 10px;
+}
+.blog-footer {
+  border: 2px;
+  width: 740px;
+  height: 50px;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
+}
+.blog-col {
+  border: 2px;
+  float:left;
+  background: Red;
+  width: 500px;
+  height: 350px;
+  margin: 10px;
+}
+.blog-col2 {
+  border: 2px;
+  float:left;
+  background: red;
+  width: 180px;
+  height: 250px;
+  margin: 10px
+}
+.blog-footer {
+  border: 2px;
+  width: 500px;
+  height: 50px;
+  clear: both;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.board {
+  width: 800px;
+  margin: calc((100vh - 800px) / 2) auto;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
   float: left;
 }
 .black {
@@ -34,62 +169,105 @@ body {
   background-color: black;
   float: left;
 }
-/* Layout 2 */
-.grid {
-  width: 800px;
-  margin: auto;
-}
 .header {
-  width: 800px;
-  height: 100px;
-  background-color: tomato;
+  width: 940px;
+  height: 80px;
+  background-color: blue;
+  margin: 10px;
+}
+.smallheader {
+  width: 940px;
+  height: 30px;
+  background-color: blue;
   margin:10px;
 }
-.nav {
-  width: 800px;
-  height: 20px;
-  background-color: tomato;
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.col-1 {
+  float:left;
+  background: blue;
+  width: 300px;
+  height: 500px;
   margin: 10px;
 }
-.content {
-  width: 250px;
+.col-2 {
+  float:left;
+  background:blue;
+  width: 300px;
   height: 500px;
-  background-color: tomato;
   margin: 10px;
-  float: left;
+}
+.col-3 {
+  float:left;
+  background: blue;
+  width: 300px;
+  height: 500px;
+  margin: 10px;
 }
 .footer {
-  width: 800px;
-  height: 100px;
-  background-color: tomato;
+  width: 940px;
+  height: 80px;
+  clear: both;
+  background-color: blue;
   margin: 10px;
 }
-/* Layout 3 */
-.blog {
-  width: 800px;
-  margin: auto;
+.blog-header {
+  border: 2px;
+  width: 740px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
 }
-.header1 {
-  width: 800px;
-  height: 200px;
-  background-color: tomato;
-  margin: 50px;
+.blog-container {
+  width: 760px;
+  margin: 0 auto;
 }
-.rec {
-  width: 600px;
-  height: 400px;
-  background-color: tomato;
-  margin: 50px;
-}
-.rec2 {
-  width: 190px;
+.blog-col {
+  border: 2px;
+  float:left;
+  background: blue;
+  width: 700px;
   height: 250px;
-  background-color: tomato;
-  margin: 50px;
+  margin: 10px;
 }
-.footer1 {
-  width: 600px;
-  height: 70px;
-  background-color: tomato;
-  margin: 50px;
+.blog-col2 {
+  border: 2px;
+  float:left;
+  background: blue;
+  width: 180px;
+  height: 250px;
+  margin: 10px;
+}
+.blog-footer {
+  border: 2px;
+  width: 440px;
+  height: 50px;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
+}
+.blog-col {
+  border: 2px;
+  float:left;
+  background: blue;
+  width: 440px;
+  height: 250px;
+  margin: 10px;
+}
+.blog-col2 {
+  border: 2px;
+  float:left;
+  background: blue;
+  width: 180px;
+  height: 250px;
+  margin: 10px
+}
+.blog-footer {
+  border: 2px;
+  width: 440px;
+  height: 40px;
+  clear: both;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
 }

@@ -5,7 +5,7 @@ body {
   margin: 0;
   background-color: #dddddd;
 }
-.board {
+.board1 {
   width: 800px;
   margin: calc((100vh - 800px) / 2) auto;
 }

@@ -25,124 +25,45 @@ body {
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-}
-.board {
+
+.column-grid {
   width: 800px;
-  margin: calc((100vh - 800px) / 2) auto;
-}
-.red {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  float: left;
-}
-.black {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  float: left;
+  height: 70px auto;
 }
 .header {
+  width: 700px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px 10px 75px 10px;
+}
+.header2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.Right-column {
   width: 740px;
   height: 60px;
   background-color: blue;
-  margin: 10px;
+  float: left;
 }
-.smallheader {
+.Left-column {
   width: 940px;
   height: 30px;
   background-color: red;
-  margin:10px;
+  float: left;
 }
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-.col-1 {
-  float:left;
-  background: Red;
-  width: 200px;
-  height: 700px;
-  margin: 10px;
-}
-.col-2 {
-  float:left;
-  background:blue;
-  width: 200px;
-  height: 700px;
-  margin: 10px;
-}
-.col-3 {
-  float:left;
-  background: red;
-  width: 200px;
-  height: 700px;
-  margin: 10px;
+.Middle-column {
+  width: 740px;
+  height: 60px;
+  background-color: blue;
+  float: left;
 }
 .footer {
-  width: 940px;
-  height: 80px;
-  clear: both;
-  background-color: blue;
-  margin: 10px;
-}
-.blog-header {
-  border: 2px;
-  width: 940px;
-  height: 100px;
-  background-color: red;
-  margin: 10px 10px 75px 10px;
-}
-.blog-container {
-  width: 960px;
-  margin: 0 auto;
-}
-.blog-col {
-  border: 2px;
-  float:left;
-  background: blue;
-  width: 800px;
-  height: 350px;
-  margin: 10px;
-}
-.blog-col2 {
-  border: 2px;
-  float:left;
-  background: red;
-  width: 180px;
-  height: 250px;
-  margin: 10px;
-}
-.blog-footer {
   border: 2px;
   width: 740px;
   height: 50px;
-  background-color: blue;
-  margin: 10px 10px 75px 10px;
-}
-.blog-col {
-  border: 2px;
-  float:left;
-  background: Red;
-  width: 500px;
-  height: 350px;
-  margin: 10px;
-}
-.blog-col2 {
-  border: 2px;
-  float:left;
-  background: red;
-  width: 180px;
-  height: 250px;
-  margin: 10px
-}
-.blog-footer {
-  border: 2px;
-  width: 500px;
-  height: 50px;
-  clear: both;
   background-color: blue;
   margin: 10px 10px 75px 10px;
 }
@@ -150,10 +71,7 @@ body {
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-}
-.board {
+.blog {
   width: 800px;
   margin: calc((100vh - 800px) / 2) auto;
 }
@@ -169,13 +87,13 @@ body {
   background-color: black;
   float: left;
 }
-.header {
+.blog-header {
   width: 940px;
   height: 80px;
   background-color: blue;
   margin: 10px;
 }
-.smallheader {
+.blog-post {
   width: 940px;
   height: 30px;
   background-color: blue;
@@ -185,28 +103,28 @@ body {
   width: 960px;
   margin: 0 auto;
 }
-.col-1 {
+.blog-content {
   float:left;
   background: blue;
   width: 300px;
   height: 500px;
   margin: 10px;
 }
-.col-2 {
+.blog-pics {
   float:left;
   background:blue;
   width: 300px;
   height: 500px;
   margin: 10px;
 }
-.col-3 {
+.blog-comment {
   float:left;
   background: blue;
   width: 300px;
   height: 500px;
   margin: 10px;
 }
-.footer {
+.blog-footer {
   width: 940px;
   height: 80px;
   clear: both;
@@ -224,7 +142,7 @@ body {
   width: 760px;
   margin: 0 auto;
 }
-.blog-col {
+.blog-post {
   border: 2px;
   float:left;
   background: blue;
@@ -232,7 +150,7 @@ body {
   height: 250px;
   margin: 10px;
 }
-.blog-col2 {
+.blog-content {
   border: 2px;
   float:left;
   background: blue;
@@ -240,28 +158,20 @@ body {
   height: 250px;
   margin: 10px;
 }
-.blog-footer {
+.blog-pics {
   border: 2px;
   width: 440px;
   height: 50px;
   background-color: blue;
   margin: 10px 10px 75px 10px;
 }
-.blog-col {
+.blog-comment {
   border: 2px;
   float:left;
   background: blue;
   width: 440px;
   height: 250px;
   margin: 10px;
-}
-.blog-col2 {
-  border: 2px;
-  float:left;
-  background: blue;
-  width: 180px;
-  height: 250px;
-  margin: 10px
 }
 .blog-footer {
   border: 2px;

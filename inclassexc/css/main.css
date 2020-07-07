@@ -9,88 +9,27 @@ body {
     width: 100px;
     height: 100px;
     margin-left: 25px;
-    margin-right:25px;
-    margin-top:25px;
     margin-bottom:25px;
     background-color: purple;
     float: left;
-}
-.square-2 {
-        width: 100px;
-        height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
-        float: left;
-}
-.square-3 {
-        width: 100px;
-        height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
-        float: left;
-}
-.square-4 {
-        width: 100px;
-        height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
-        float: left;
-}
-.square-5 {
-        width: 100px;
-        height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
-        float: left;
-}
-.square-6 {
-        width: 100px;
-        height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
-        float: left;
 }
 .vert-rectangle-1 {
         width: 200px;
         height: 100px;
         margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
         margin-bottom:25px;
         background-color: purple;
         float: left;
 }
 .horz-rectangle {
-        width: 200px;
-        height: 100px;
+        width: 100px;
+        height: 200px;
         margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
         margin-bottom:25px;
         background-color: purple;
         float: left;
 }
-.horz-rectangle-2 {
-        width: 200px;
+.Container {
+        width: 100px;
         height: 100px;
-        margin-left: 25px;
-        margin-right:25px;
-        margin-top:25px;
-        margin-bottom:25px;
-        background-color: purple;
         float: left;

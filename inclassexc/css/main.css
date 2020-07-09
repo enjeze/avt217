@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 500px;
-  margin: 0,auto;
+
 }
 
 .shape-board {
@@ -37,3 +36,4 @@ body {
 .container{
         width: 475px;
         float: left;
+}

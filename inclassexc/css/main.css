@@ -20,14 +20,14 @@ body {
 }
 .vert-rectangle-1{
         width: 100px;
-        height: 200px;
+        height: 225px;
         background-color: purple;
         margin-left: 25px;
         margin-bottom:25px;
         float: left;
 }
 .horz-rectangle{
-        width: 200px;
+        width: 225px;
         height: 100px;
         background-color: purple;
         margin-left: 25px;
@@ -35,6 +35,5 @@ body {
         float: left;
 }
 .container{
-        width: 300px;
-        height: 250px;
+        width: 475px;
         float: left;

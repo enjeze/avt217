@@ -13,7 +13,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: purple;
-    margin-left: 25px;
+    margin-right: 25px;
     margin-bottom:25px;
     float: left;
 }
@@ -21,7 +21,7 @@ body {
         width: 100px;
         height: 225px;
         background-color: purple;
-        margin-left: 25px;
+        margin-right: 25px;
         margin-bottom:25px;
         float: left;
 }
@@ -29,8 +29,14 @@ body {
         width: 225px;
         height: 100px;
         background-color: purple;
-        margin-left: 25px;
+        margin-right: 25px;
         margin-bottom:25px;
+        float: left;
+}
+.square-2{
+        width: 100px;
+        height: 100px;
+        background-color: purple;
         float: left;
 }
 .container{

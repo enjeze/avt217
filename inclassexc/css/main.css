@@ -19,16 +19,16 @@ body {
     float: left;
 }
 .vert-rectangle-1{
-        width: 200px;
-        height: 100px;
+        width: 100px;
+        height: 200px;
         background-color: purple;
         margin-left: 25px;
         margin-bottom:25px;
         float: left;
 }
 .horz-rectangle{
-        width: 100px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         background-color: purple;
         margin-left: 25px;
         margin-bottom:25px;

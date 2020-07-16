@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 100px;
+  padding: 0;
+}
+
+.screen{
+  width: 725px;
+  height: 400px;
+  background-image: url("../images/GameScreen.jpg");
+  background-size: contain;
+  top: 100px
+  left: 300px
+  float: left;
+}
+.screen:hover{
+ background-image: url("../images/PSLogo.jpg");
+
+}
+.boarder{
+  width: 725px;
+ height: 400px;
+ background-color: black
+ border-radius: 40px 40px 0px 0px;
+ border: 15px solid black;
+ top: 100px
+ left: 300px
+ float: left;
+}

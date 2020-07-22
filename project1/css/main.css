@@ -1,8 +1,38 @@
+/* Step1: What do  want to style?
+Step2: Type the selector
+Step3: You want an open curly bracket and a closing cuely bracket
+Step4: Type the property you want to change. Follow by a colon
+Step5: type the value you want followed by a semi colon.
+Step6: Repead steps 4 and 5 to style everything else. */
+
 *{
   box-sizing: border-box;
 }
 body{
   background-color: black;
-  color: black;
+  color: white;
   margin: 0;
 }
+header li{
+  display: inline;
+}
+header nav{
+  float: left;
+}
+header h1{
+  float: left;
+}
+.About{
+  color: white;
+  font-size: 16px;
+  margin: 100px 35px 100px 35px;
+}
+.col{
+  width: 50%;
+  float: left;
+}
+li{
+  font-size: 20px;
+  color: #EFEFEF;
+  margin: 10px;
+  list-style-type: none;

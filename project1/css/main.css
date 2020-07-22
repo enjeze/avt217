@@ -27,12 +27,14 @@ header h1{
   font-size: 16px;
   margin: 100px 35px 100px 35px;
 }
-.col{
-  width: 50%;
-  float: left;
-}
 li{
   font-size: 20px;
-  color: #EFEFEF;
+  color: white;
   margin: 10px;
   list-style-type: none;
+}
+  nav li {
+      display: inline;
+}
+a:hover {
+color: red;

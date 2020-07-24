@@ -33,8 +33,13 @@ li{
   margin: 10px;
   list-style-type: none;
 }
+a:hover{
+color: red;
+}
+.nav{
+  text-align: right;
+  position: relative;
+  top: -48px
+}
   nav li {
       display: inline;
-}
-a:hover {
-color: red;

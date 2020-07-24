@@ -22,10 +22,37 @@ header nav{
 header h1{
   float: left;
 }
-.About{
-  color: white;
-  font-size: 16px;
-  margin: 100px 35px 100px 35px;
+.About {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.Music {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.Tour {
+  font-size: 25px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 70px;
+  font-weight: 700;
+}
+.Home{
+    font-size: 25px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 70px;
+    font-weight: 700;
+}
+.follow{
+  width: 50px;
+  height: 50px;
 }
 li{
   font-size: 20px;

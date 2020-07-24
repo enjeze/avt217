@@ -17,7 +17,7 @@ header li{
   display: inline;
 }
 header nav{
-  float: left;
+  float: right;
 }
 header h1{
   float: left;
@@ -32,22 +32,16 @@ header h1{
 .Music {
   font-size: 25px;
   float: right;
-  margin-top: 40px;
-  margin-right: 5px;
   font-weight: 700;
 }
 .Tour {
   font-size: 25px;
   float: right;
-  margin-top: 40px;
-  margin-right: 70px;
   font-weight: 700;
 }
 .Home{
     font-size: 25px;
     float: right;
-    margin-top: 40px;
-    margin-right: 70px;
     font-weight: 700;
 }
 .follow{
@@ -70,3 +64,15 @@ color: red;
 }
   nav li {
       display: inline;
+}
+    .dates{
+      float: left;
+      margin-top: 10px;
+      text-align: center;
+      width: 965px;
+      line-height: 35px;
+      margin-left: 17px;
+}
+    .credits{
+      float: left;
+      font-size:50px

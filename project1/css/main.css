@@ -15,12 +15,15 @@ body{
 }
 header li{
   display: inline;
+  color: white;
 }
 header nav{
   float: right;
+  color: white;
 }
 header h1{
   float: left;
+  color: white;
 }
 .About {
   font-size: 25px;
@@ -28,21 +31,19 @@ header h1{
   margin-top: 40px;
   margin-right: 5px;
   font-weight: 700;
+  color: white;
 }
 .Music {
   font-size: 25px;
   float: right;
   font-weight: 700;
+  color: white;
 }
 .Tour {
   font-size: 25px;
   float: right;
   font-weight: 700;
-}
-.Home{
-    font-size: 25px;
-    float: right;
-    font-weight: 700;
+  color: white;
 }
 .follow{
   width: 50px;
@@ -120,3 +121,7 @@ color: red;
         .SON{
           float: left;
           width: 770px;
+}
+        .ul{
+        color: white;
+        }
